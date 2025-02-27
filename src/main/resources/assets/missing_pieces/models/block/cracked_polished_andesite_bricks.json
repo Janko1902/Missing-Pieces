@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "missing_pieces:block/cracked_polished_andesite_bricks"
-  }
-}

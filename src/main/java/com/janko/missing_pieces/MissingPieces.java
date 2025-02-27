@@ -1,5 +1,8 @@
 package com.janko.missing_pieces;
 
+import com.janko.missing_pieces.block.ModBlocks;
+import com.janko.missing_pieces.item.ModItemGroup;
+import com.janko.missing_pieces.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,8 @@ public class MissingPieces implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroup.registerItemGroups();
+		ModBlocks.registerBlocks();
+		ModItems.registerItems();
 	}
 }
