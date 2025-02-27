@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "missing_pieces:polished_andesite_bricks"
+  },
+  "result": "missing_pieces:polished_andesite_brick_stairs"
+}

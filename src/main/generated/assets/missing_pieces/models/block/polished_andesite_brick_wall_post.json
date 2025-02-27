@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "missing_pieces:block/polished_andesite_bricks"
+  }
+}
