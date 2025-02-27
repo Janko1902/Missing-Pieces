@@ -3,20 +3,22 @@
 	"id": "missing_pieces",
 	"version": "${version}",
 	"name": "Missing Pieces",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Missing Pieces is a mod that adds missing vanilla block variants to minecraft.",
 	"authors": [
-		"Me!"
+		"Janko"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Janko1902/Missing-Pieces"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/missing_pieces/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"com.janko.missing_pieces.MissingPieces"
+		],
+		"client": [
+			"com.janko.missing_pieces.MissingPiecesClient"
 		],
 		"fabric-datagen": [
 			"com.janko.missing_pieces.MissingPiecesDataGenerator"
