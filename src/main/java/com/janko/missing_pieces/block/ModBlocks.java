@@ -11,17 +11,16 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    public static final Block CRACKED_POLISHED_ANDESITE_BRICKS = registerBlock("cracked_polished_andesite_bricks",
+    public static final Block CRACKED_ANDESITE_BRICKS = registerBlock("cracked_andesite_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE)));
-    public static final Block POLISHED_ANDESITE_BRICKS = registerBlock("polished_andesite_bricks",
+    public static final Block ANDESITE_BRICKS = registerBlock("andesite_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE)));
-    public static final Block POLISHED_ANDESITE_BRICK_STAIRS = registerBlock("polished_andesite_brick_stairs",
-            new StairsBlock(ModBlocks.POLISHED_ANDESITE_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE)));
-    public static final Block POLISHED_ANDESITE_BRICK_SLAB = registerBlock("polished_andesite_brick_slab",
+    public static final Block ANDESITE_BRICK_STAIRS = registerBlock("andesite_brick_stairs",
+            new StairsBlock(ModBlocks.ANDESITE_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE)));
+    public static final Block ANDESITE_BRICK_SLAB = registerBlock("andesite_brick_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE)));
-    public static final Block POLISHED_ANDESITE_BRICK_WALL = registerBlock("polished_andesite_brick_wall",
+    public static final Block ANDESITE_BRICK_WALL = registerBlock("andesite_brick_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE)));
-    //public static final Block
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

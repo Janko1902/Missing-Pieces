@@ -11,10 +11,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.CRACKED_POLISHED_ANDESITE_BRICKS);
-        addDrop(ModBlocks.POLISHED_ANDESITE_BRICKS);
-        addDrop(ModBlocks.POLISHED_ANDESITE_BRICK_STAIRS);
-        addDrop(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB);
-        addDrop(ModBlocks.POLISHED_ANDESITE_BRICK_WALL);
+        addDrop(ModBlocks.CRACKED_ANDESITE_BRICKS);
+        addDrop(ModBlocks.ANDESITE_BRICKS);
+        addDrop(ModBlocks.ANDESITE_BRICK_STAIRS);
+        addDrop(ModBlocks.ANDESITE_BRICK_SLAB);
+        addDrop(ModBlocks.ANDESITE_BRICK_WALL);
     }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "missing_pieces:block/andesite_bricks"
+  }
+}

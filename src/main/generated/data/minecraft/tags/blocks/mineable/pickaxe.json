@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "missing_pieces:cracked_polished_andesite_bricks",
-    "missing_pieces:polished_andesite_bricks"
+    "missing_pieces:cracked_andesite_bricks",
+    "missing_pieces:andesite_bricks"
   ]
 }

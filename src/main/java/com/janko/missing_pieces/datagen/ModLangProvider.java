@@ -17,10 +17,10 @@ public class ModLangProvider extends FabricLanguageProvider {
 
         translationBuilder.add(ModItems.MISSING_PIECES, "Missing Pieces");
 
-        translationBuilder.add(ModBlocks.CRACKED_POLISHED_ANDESITE_BRICKS, "Cracked Polished Andesite Bricks");
-        translationBuilder.add(ModBlocks.POLISHED_ANDESITE_BRICKS, "Polished Andesite Bricks");
-        translationBuilder.add(ModBlocks.POLISHED_ANDESITE_BRICK_STAIRS, "Polished Andesite Brick Stairs");
-        translationBuilder.add(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB, "Polished Andesite Brick Slab");
-        translationBuilder.add(ModBlocks.POLISHED_ANDESITE_BRICK_WALL, "Polished Andesite Brick Wall");
+        translationBuilder.add(ModBlocks.CRACKED_ANDESITE_BRICKS, "Cracked Andesite Bricks");
+        translationBuilder.add(ModBlocks.ANDESITE_BRICKS, "Andesite Bricks");
+        translationBuilder.add(ModBlocks.ANDESITE_BRICK_STAIRS, "Andesite Brick Stairs");
+        translationBuilder.add(ModBlocks.ANDESITE_BRICK_SLAB, "Andesite Brick Slab");
+        translationBuilder.add(ModBlocks.ANDESITE_BRICK_WALL, "Andesite Brick Wall");
     }
 }

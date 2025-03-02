@@ -15,11 +15,11 @@ public class ModItemGroup {
             new Identifier(MissingPieces.MOD_ID, "missing_pieces_tab"),
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.missing_pieces"))
                     .icon(() -> new ItemStack(ModItems.MISSING_PIECES)).entries((displayContext, entries) -> {
-                        entries.add(ModBlocks.CRACKED_POLISHED_ANDESITE_BRICKS);
-                        entries.add(ModBlocks.POLISHED_ANDESITE_BRICKS);
-                        entries.add(ModBlocks.POLISHED_ANDESITE_BRICK_STAIRS);
-                        entries.add(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB);
-                        entries.add(ModBlocks.POLISHED_ANDESITE_BRICK_WALL);
+                        entries.add(ModBlocks.CRACKED_ANDESITE_BRICKS);
+                        entries.add(ModBlocks.ANDESITE_BRICKS);
+                        entries.add(ModBlocks.ANDESITE_BRICK_STAIRS);
+                        entries.add(ModBlocks.ANDESITE_BRICK_SLAB);
+                        entries.add(ModBlocks.ANDESITE_BRICK_WALL);
                     }).build());
 
     public static void registerItemGroups() {
